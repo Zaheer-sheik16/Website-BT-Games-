@@ -5,36 +5,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BT Games</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-
+    <!-----home page------>
+    <div class="header">
+        
     <div class="container">
         <div class="navbar">
             <div class="logo">
                 <img src="images/logo.jpg" width="125px">
             </div> 
             <nav>
-                <ul>
+                <ul id="MenuItems">
                     <li><a href="">Home</a></li>
-                    <li><a href="">Products</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Account</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="/product.html">Products</a></li>
+                    <li><a href="/account.html">Account</a></li>
                 </ul>
             </nav>
+            <img src="images/menuicon.jpg" class="menu-icon" 
+            onclick="menutoggle()">
         </div>
         <div class="row">
             <div class="col-2">
             <h1>ENHANCE YOUR GAMING</h1>
-            <P>by buying the best of the best tools to be the best of the best</P>   
+            <P>By buying the best of the best tools<br>to be the best of the best player.</P>
+            <a href="/product.html"class="btn">Shop Now &#8594;</a> 
             </div>
             <div class="col-2">
                 <img src="images/items.jpg">
             </div>
         </div>
     </div>
-   
+</div> 
 
-
+<!------ featured catergories ----->
+<div class="categories">
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-3">
+             <img src="images/accessories for categories.jpg">
+             <h4>Gaming accessories</h4>
+            </div> 
+            <div class="col-3">
+             <img src="images/consoles.jpg">
+             <h4>Consoles</h4>
+            </div> 
+            <div class="col-3">
+             <img src="images/hoodies and T-Shirts.jpg">
+             <h4>Hoodies and T-Shirts</h4>
+            </div> 
+         </div>
+    </div>
+<!------ exclusively sold at BT Games ----->
+    <div class="exclusive">
+        <div class="small-container">
+            <div class="row">
+                    <div class="col-2">
+                        <img src="images/racing sim exclusive.webp" class="exclusive-img">
+                    </div>
+                    <div class="col-2">
+                        <p>Exclusively sold at BT Games</p>
+                        <h1>Logitech Racing Simulator</h1>
+                        <small>The PRO racing Wheel and the PRO racing Pedals aim to elevate the simulation of sim racing to an unprecedented level for compatible gaming titles and platforms like PlayStation 4/5, Xbox Series X/S, Xbox One or PC.</small>
+                        <br><a href="" class="btn">Buy Now &#8594; </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------ brands sold at BT Games ----->
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="images/logitech-logo-01.png">
+            </div>
+            <div class="col-5">
+                <img src="images/visa logo.png">
+            </div>
+            <div class="col-5">
+                <img src="images/razer.jpg">
+            </div>
+            <div class="col-5">
+                <img src="images/sony logo.webp">
+            </div>
+            <div class="col-5">
+                <img src="images/microsoft logo.png">
+            </div>
+        </div>
+    </div>
+</div>
+<!------ footer ----->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+          <div class="footer-col-2">
+           <img src="images/logo.jpg">
+            <p>the place where pro players are born</p>
+          </div>  
+          <div class="footer-col-3">
+            <h3>For any assistance, contact us:</h3>
+            <ul>
+                <li>email:BTGames.Support@gmail.com</li>
+                <li>phone: +27 21 456 789</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow us on:</h3>
+            <ul>
+                <li>Instagram: Official.BTGames</li>
+                <li>Twiiter: Official.BTGames</li>
+                <li>Facebook: Official.BTGames</li>
+            </ul>
+          </div>  
+        </div>
+        <hr>
+            <p class="copyright">Copyright BTGames</p>
+    </div>
+</div>
+<!-----JS For menu---->
+    <script src="app.js"></script>
 </body>
 </html>

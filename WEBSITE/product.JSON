@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Xbox Elite series 2 conntroller",
+        "price": 4500,
+        "image": "images/elite xbox controller.png"
+    },
+    {
+        "id": 2,
+        "name": "xbox one series x",
+        "price": 13000,
+        "image": "images/xbox series x.png"
+    },
+    {
+        "id": 3,
+        "name": "Gaming T-Shirt",
+        "price": 250,
+        "image": "images/gaming shirt.png"
+    },
+    {
+        "id": 4,
+        "name": "Naruto Funko POP",
+        "price": 200,
+        "image": "images/naruto funk pop.png"
+    },
+    {
+        "id": 5,
+        "name": "Astro A40 Headset",
+        "price": 2500,
+        "image": "images/astro a40 headset.png"
+    },
+    {
+        "id": 6,
+        "name": "Logitech gaming mouse",
+        "price": 900,
+        "image": "images/logitech gaming mouse 502.png"
+    },
+    {
+        "id": 7,
+        "name": "Redragon Gaming keyboard",
+        "price": 700,
+        "image": "images/redragon keyboard.png"
+    },
+    {
+        "id": 8,
+        "name": "CALL-OF-DUTY hoodie",
+        "price": 600,
+        "image": "images/call of duty hooide.png"
+    }
+]
